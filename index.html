@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <span class="menu-icon" onclick="toggleMenu()">☰</span>
+                <div class="menu-content" id="menuContent">
+                    <a href="index.html">Home</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+            <button class="close-btn" onclick="goHome()">✖</button>
+        </nav>
+    </header>
+
+    <section class="classes-section">
+        <div class="classes-slider">
+            <button class="slide-btn" onclick="slideLeft()">←</button>
+            <div class="classes" id="classes">
+                <!-- Add class options here -->
+                <a href="class.html?class=nursery">Nursery</a>
+                <a href="class.html?class=1">Class 1</a>
+                <a href="class.html?class=2">Class 2</a>
+                <a href="class.html?class=3">Class 3</a>
+                <a href="class.html?class=4">Class 4</a>
+                <a href="class.html?class=5">Class 5</a>
+                <a href="class.html?class=6">Class 6</a>
+                <a href="class.html?class=7">Class 7</a>
+                <a href="class.html?class=8">Class 8</a>
+                <a href="class.html?class=9">Class 9</a>
+                <a href="class.html?class=10">Class 10</a>
+                <a href="class.html?class=11">Class 11</a>
+                <a href="class.html?class=12">Class 12</a>
+            </div>
+            <button class="slide-btn" onclick="slideRight()">→</button>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu {
+    position: relative;
+}
+
+.nav .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav .menu-content {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.nav .menu-content a {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav .menu-content a:hover {
+    background-color: #ddd;
+}
+
+.close-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.classes-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.classes-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classes {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.classes a {
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.classes a:hover {
+    background-color: #ddd;
+}
+
+.slide-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
